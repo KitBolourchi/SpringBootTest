@@ -45,4 +45,5 @@ public class SpeakersController {
         BeanUtils.copyProperties(speaker, existingSpeaker, "speaker_id");
         speakerRepository.saveAndFlush(existingSpeaker);
     }
+    
 }
