@@ -46,5 +46,5 @@ public class SpeakersController {
         speakerRepository.saveAndFlush(existingSpeaker);
     }
 
-    
+
 }
